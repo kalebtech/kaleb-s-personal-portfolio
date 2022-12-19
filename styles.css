@@ -212,17 +212,24 @@ img{
 /*BUTTONS*/
 .button{
   display: inline-block;
-  background-color: var(--first-color);
+  background-color:rgb(109, 53, 146);
   color: rgb(255, 255, 255);
   padding: .75rem 2.5rem;
   font-weight: var(--font-semi);
-  border-radius: .5rem;
+  border-radius: 17px;
 }
 .button:hover{
-  box-shadow: 0 10px 36px rgb(37, 124, 182);
+  box-shadow: 0 10px 36px rgb(253, 253, 253);
   background: transparent;
-  border-color: #47fd6e;
-  color: #4ebbce;
+  border-color: #afc4b4;
+  color: #2f56d6;
+}
+.button2{
+
+  background-color: #2f56d6;
+  border-radius: 12px;
+  color: #4ea863;
+
 }
 
 
@@ -351,6 +358,7 @@ img{
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+
 }
 
 .footer__social{
@@ -422,9 +430,10 @@ img{
     width: 300px;
   }
   .work__container{
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2,1fr);
-    column-gap: 2rem;
+    
+
+    column-gap: 50px;
+    
   }
   .contact__form{
     width: 360px;
